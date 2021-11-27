@@ -31,7 +31,7 @@ Langkah 2 : Subnet besar yang dibentuk memiliki NID 10.2.0.0 dengan netmask leng
 
 ![660221](https://user-images.githubusercontent.com/71221969/143668987-e09ba896-28ee-421a-a78c-2a995da6f2ab.jpg)
 
-Langkah 3 : Mengatur konfigurasi pada router
+Langkah 3 : Mengatur konfigurasi pada menu routing>static pada router
 
 | Router  | Network | Mask  | Next Hop |
 | ------------- | ------------- | ------------- | ------------- |
@@ -42,3 +42,6 @@ Langkah 3 : Mengatur konfigurasi pada router
 | Alabasta | 0.0.0.0 | 0.0.0.0 | 192.179.24.1 |
 | Oimo | 0.0.0.0<br>192.179.20.0 | 0.0.0.0<br>255.255.252.0 | 192.179.27.158<br>192.179.26.2 |
 | Seast One | 0.0.0.0 | 0.0.0.0 | 192.179.26.1 |
+
+Langkah 4: Paket siap dijalankan
+![image](https://user-images.githubusercontent.com/71221969/143669628-19c10699-30b4-4e36-853d-dd1f82f49dea.png)
