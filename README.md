@@ -1,5 +1,13 @@
 # Jarkom-Modul-4-B05-2021
 
+## VLSM (Variable Length Subnet Masking) - CPT
+
+Langkah 1 : Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet dan melakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan
+
+![2021-11-23 09 28 02](https://user-images.githubusercontent.com/71221969/143668982-39e96e7d-6e0a-4711-9400-09a30ba2f6b4.png)
+
+Sehingga didapatkan tabel berikut:
+
 | Subnet  | IP | Subnet Mask  | Lenghth | Jumlah IP |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | A1 (blueno) | 192.179.8.0 | 255.255.252.0 | /22 | 1001 |
@@ -17,3 +25,8 @@
 | A13 (jorge) | 192.179.27.128 | 255.255.255.240 | /28 | 13 |
 | A14 (doriki) | 192.179.27.160 | 255.255.255.252 | /30 | 2 |
 | A15 (fukurou) | 192.179.27.164 | 255.255.255.252 | /30 | 2 |
+| Total |  | 	255.255.224.0 | /19 | 5845 |
+
+Langkah 2 : Subnet besar yang dibentuk memiliki NID 10.2.0.0 dengan netmask length /19. Hitung pembagian IP berdasarkan NID dan netmask tersebut menggunakan pohon seperti gambar di bawah
+
+![660221](https://user-images.githubusercontent.com/71221969/143668987-e09ba896-28ee-421a-a78c-2a995da6f2ab.jpg)
