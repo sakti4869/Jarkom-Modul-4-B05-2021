@@ -30,3 +30,9 @@ Sehingga didapatkan tabel berikut:
 Langkah 2 : Subnet besar yang dibentuk memiliki NID 10.2.0.0 dengan netmask length /19. Hitung pembagian IP berdasarkan NID dan netmask tersebut menggunakan pohon seperti gambar di bawah
 
 ![660221](https://user-images.githubusercontent.com/71221969/143668987-e09ba896-28ee-421a-a78c-2a995da6f2ab.jpg)
+
+Langkah 3 : Mengatur konfigurasi pada router
+
+| Router  | Network | Mask  | Next Hop |
+| ------------- | ------------- | ------------- | ------------- |
+| A1 (blueno) | 192.179.8.0<br>192.179.8.0 | 255.255.252.0 | /22 |
