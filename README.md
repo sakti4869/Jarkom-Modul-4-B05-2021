@@ -1,5 +1,13 @@
 # Jarkom-Modul-4-B05-2021
 
+## Anggota Kelompok ##
+
+Aji Wahyu Admaja Utama 05111940000073
+
+Muhammad Haikal Aria Sakti 05111940000088
+
+Ivan Muhammad Nizar 05111940000052
+
 ## VLSM (Variable Length Subnet Masking) - CPT
 
 Langkah 1 : Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet dan melakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan
